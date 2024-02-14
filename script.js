@@ -38,7 +38,11 @@ const wednesdaysWeather = new DayWeather(
   62
 );
 
-todaysWeather.displayConditions();
+document.getElementById("displayWeather").innerHTML =
+  todaysWeather.displayConditions();
 
-wednesdaysWeather.displayConditions();
-wednesdaysWeather.alert();
+document.getElementById("displayDayWeather").innerHTML =
+  wednesdaysWeather.displayConditions();
+
+document.getElementById("dayWeatherAlert").innerHTML =
+  wednesdaysWeather.alert();
