@@ -25,7 +25,7 @@ class DayWeather extends Weather {
     }
   }
   displayConditions() {
-    return `Today is ${this.weekDay}. Temprature: ${this.temperature} °F, Precipitation: ${this.precipitation}%, Humidity: ${this.humidity}%, Description: ${this.description}`;
+    return `Today is ${this.weekDay}. Temperature: ${this.temperature} °F, Precipitation: ${this.precipitation}%, Humidity: ${this.humidity}%, Description: ${this.description}`;
   }
 }
 
