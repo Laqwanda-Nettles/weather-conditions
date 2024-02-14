@@ -58,4 +58,5 @@ class DayWeather extends Weather {
 // console.log(fridaysWeather.displayConditions());
 // console.log(fridaysWeather.alert());
 // Output: Today is Friday. Temperature: 90°F, Precipitation: 0%, Humidity: 89%, Description: Clear skies
+// Alert Output: Excessive Heat Warning: Please limit your time outdoors.
 ```
